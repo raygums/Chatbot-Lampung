@@ -35,4 +35,10 @@ return [
         ],
     ],
 
+    'ngirimwa' => [
+        'api_key' => env('NGIRIMWA_API_KEY'),
+        'base_url' => env('NGIRIMWA_BASE_URL', 'https://dash.ngirimwa.com/api/v1'),
+        'ngrok_url' => env('NGROK_URL'),
+    ],
+
 ];
